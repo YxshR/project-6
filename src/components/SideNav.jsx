@@ -46,7 +46,7 @@ const SideNav = () => {
 
 
 
-        <Box mt="6" mx="3" mb="6">
+        <Box mt="6" mx="3" mb="6" cursor="pointer">
         <HStack borderRadius="10px"
                  py="3" px="4"
                 _hover={{

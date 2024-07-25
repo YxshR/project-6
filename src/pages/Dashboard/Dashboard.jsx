@@ -26,7 +26,10 @@ const Dashboard = ({}) => {
             <Transaction />
           </GridItem>
           <GridItem colSpan={1}>
-            <Infovard />
+            <Infovard imgUrl="/dot.svg" text="Learn more about Loans – Keep your Bitcoin, access it’s value without selling it" tagText="Loan" inverted={false} />
+          </GridItem>
+          <GridItem colSpan={1}>
+            <Infovard imgUrl="\Visual.svg" inverted={true} tagText="Contact" text="Learn more about our real estate, mortgage, and  corporate account services" />
           </GridItem>
         </Grid>
     </DashboardLayout>

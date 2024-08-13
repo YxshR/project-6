@@ -12,11 +12,14 @@ const Dashboard = ({}) => {
         <Grid
         gridTemplateColumns={{
           base: "repeat(2, 1fr)",
-          md: "repeat(2, 1fr)",
+          xl: "repeat(2, 1fr)",
         }}
         gap="6"
         >
-          <GridItem colSpan={2}>
+          <GridItem colSpan={{
+            base:1,
+            lg: 2,
+          }}>
             <PortfolioSection />
           </GridItem>
           <GridItem colSpan={1}>
